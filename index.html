@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div id="WrapperPrincipale">
+<div id="WrapperPrincipale" class="wrp1">
     <div id="griglia">
 
     </div>
     <div id="bottoni">
-        <button id="Start">Avvia il Gioco</button>
-        <p id="nTentativi">Tentativi: </p>
-        <p id="NaviRimaste">Navi rimaste da colpire: </p>
+        <button id="Start" class="pulsanti" onclick="avviaGioco()">Avvia il Gioco</button>
+        <div id="DivTesti">
+            <p id="nTentativi" class="testo">Tentativi: </p>
+            <p id="NaviRimaste" class="testo">Navi rimaste da colpire: </p>
+        </div>
     </div>
 </div>
     <script src="index.js"></script>

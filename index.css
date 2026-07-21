@@ -1,12 +1,61 @@
 .pulsanti
 {
-
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-family:'vedrana';
+    font-size: 15pt;
+    background-color: blue;
+}
+#DivTesti
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background-color: lightblue;
+    justify-content: center;
+    text-align: center;
+    border-radius:20px;
 }
 .testo
 {
-
+    font-family:'vedrana';
+    font-size: 15pt;
 }
 .griglia
 {
+    display: grid;
+    grid-template-columns: repeat(10, 60px);
+    gap : 4px;
+    background-image: url("./img/SfondoBnavale.png");
+    padding: 10px;
+    width: 630px;
+}
+.cella
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
 
+.wrp1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./img/SfondoNave.png");
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+#body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
